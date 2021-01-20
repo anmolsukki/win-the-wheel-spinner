@@ -12,7 +12,6 @@ const App = () => {
       setSelectedItem(roundSelected);
     } else {
       setSelectedItem(null);
-      setTimeout(this.selectItem, 500);
     }
   };
 
